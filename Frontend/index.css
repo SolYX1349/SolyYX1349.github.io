@@ -10,19 +10,76 @@ body {
   width: 100%;
   height: 795px;
 }
-#lista-redes {
+#lista-redes ul {
   margin: 0% 1%;
   padding: 0%;
   list-style: none;
 }
-#lista-redes img {
+#lista-redes ul li a img {
   width: 30px;
   margin-top: 1%;
 }
+#container-1 img {
+  width: 250px;
+  border-radius: 50%;
+}
+#container-perfil {
+  text-align: center;
+}
+#container-perfil h1 {
+  font-size: xx-large;
+  margin: 1%;
+  color: #e76f51;
+}
+#container-perfil p {
+  color: #fff;
+}
 #container-2 {
+  text-align: center;
+  align-items: center;
   background-color: #0d1b2a;
   width: 100%;
   height: 795px;
+  display: inline-flex;
+}
+#container-2 picture img {
+  border-radius: 10%;
+  border: 2px solid #fff;
+  width: 50%;
+}
+#about-me {
+  margin-top: 5%;
+  margin-left: -8%;
+  width: 50%;
+  height: 500px;
+  border-radius: 5%;
+  color: #1d2020;
+}
+#about-me h2 {
+  font-size: x-large;
+  color: #e76f51;
+  text-align: left;
+  margin-left: 5%;
+}
+#about-me hr {
+  border: 1px solid #e76f51;
+  margin-left: 5%;
+  width: 10%;
+}
+#about-me p {
+  color: #fff;
+}
+#container-datos {
+  border: 1px solid #e76f51;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 100%;
+  height: 20%;
+  display: inline-flex;
+}
+#container-datos p {
+  margin-left: 3%;
+  margin-top: 5.5%;
 }
 #container-3 {
   background-color: #1b263b;
