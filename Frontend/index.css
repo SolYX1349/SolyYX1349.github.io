@@ -1,0 +1,147 @@
+body {
+  background: #ffffff;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0%;
+}
+#container-1 {
+  position: static;
+  background-color: #010b13;
+  width: 100%;
+  height: 795px;
+}
+#lista-redes ul {
+  margin: 0% 1%;
+  padding: 0%;
+  list-style: none;
+}
+#lista-redes ul li a img {
+  width: 30px;
+  margin-top: 1%;
+}
+#container-1 img {
+  width: 250px;
+  border-radius: 50%;
+}
+#container-perfil {
+  text-align: center;
+}
+#container-perfil h1 {
+  font-size: xx-large;
+  margin: 1%;
+  color: #e76f51;
+}
+#container-perfil p {
+  color: #fff;
+}
+#container-2 {
+  text-align: center;
+  align-items: center;
+  background-color: #0d1b2a;
+  width: 100%;
+  height: 795px;
+  display: inline-flex;
+}
+#container-2 picture img {
+  border-radius: 10%;
+  border: 2px solid #fff;
+  width: 50%;
+}
+#about-me {
+  margin-top: 5%;
+  margin-left: -8%;
+  width: 50%;
+  height: 500px;
+  border-radius: 5%;
+  color: #1d2020;
+}
+#about-me h2 {
+  font-size: x-large;
+  color: #e76f51;
+  text-align: left;
+  margin-left: 5%;
+}
+#about-me hr {
+  border: 1px solid #e76f51;
+  margin-left: 5%;
+  width: 10%;
+}
+#about-me p {
+  color: #fff;
+}
+#container-datos {
+  border: 1px solid #e76f51;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 100%;
+  height: 20%;
+  display: inline-flex;
+}
+#container-datos p {
+  margin-left: 3%;
+  margin-top: 5.5%;
+}
+#container-3 {
+  display: flow-root;
+  text-align: center;
+  align-items: center;
+  background-color: #161f30;
+  width: 100%;
+  height: 795px;
+  color: #fff;
+}
+#contaner-head {
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 70%;
+  padding-bottom: 6%;
+}
+#contaner-head h3 {
+  text-align: left;
+  margin: 0%;
+  margin-left: 5%;
+  color: #e76f51;
+}
+#contaner-head h2 {
+  text-align: left;
+  margin: 0%;
+  margin-left: 5%;
+  color: #ffffff;
+}
+#container-3 hr {
+  margin-left: 5%;
+  width: 50%;
+  border: 1px solid #e76f51;
+}
+#skills {
+  display: inline-flex;
+  width: 50%;
+  height: 60%;
+}
+.skills-div {
+  border: 1px solid #ffffff;
+  background-color: #121927;
+  border-radius: 5%;
+  width: 45%;
+  height: 90%;
+  margin-left: 3%;
+  text-align: center;
+}
+.skills-div img {
+  width: 100px;
+  align-items: center;
+}
+.skills-div ul {
+  list-style: circle;
+  margin-top: 20%;
+  margin-left: 25%;
+}
+.skills-div ul li {
+  color: #ffffff;
+  font-size: x-large;
+  text-align: left;
+}
+.skills-div:hover{
+    border-radius: 7%;
+    border: 1px solid #e76f51;
+}
