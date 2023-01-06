@@ -13,7 +13,7 @@ main {
   position: static;
   background-color: #010b13;
   width: 100%;
-  height: 890px;
+  height: 970px;
 }
 #lista-redes ul {
   margin: 0% 1%;
@@ -56,7 +56,7 @@ main {
   align-items: center;
   background-color: #0d1b2a;
   width: 100%;
-  height: 890px;
+  height: 970px;
   display: inline-flex;
 }
 #container-2 picture img {
@@ -104,7 +104,7 @@ main {
   align-items: center;
   background-color: #161f30;
   width: 100%;
-  height: 890px;
+ height: 970px;
   color: #fff;
 }
 #contaner-head {
@@ -161,6 +161,34 @@ main {
 .skills-div:hover {
   border-radius: 7%;
   border: 1px solid #e76f51;
+}
+#container-4{
+  text-align: center;
+  background-color: #161f30;
+  border-radius: 0% 0% 1% 1%;
+  width: 100%;
+  height: 500px;
+}
+#container-4 h1{
+  font-size: xx-large;
+  padding-top: 1%;
+  color: #e76f51;
+}
+.carrucel{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.element{
+  flex: 1 0 auto;
+  margin: 0 50px;
+  background-color: #161f30;
+  width: 300px;
+  height: 390px;
+}
+.element img{
+  width: 300px;
+  height: 390px;
 }
 /* footer */
 footer {
