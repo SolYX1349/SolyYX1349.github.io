@@ -60,8 +60,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  /*box-shadow: 2px 10px 10px 2px #c1d5d8;*/
-  box-shadow: 1px 1px 10px 2px #ffd900ec;
+  box-shadow: 2px 10px 10px 2px #c1d5d8;
   background: #ffffff;
   backdrop-filter: blur(10px);
   border-radius: 10px;
