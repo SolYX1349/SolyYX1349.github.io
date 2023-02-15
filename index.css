@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   margin: 0%;
   padding: 0%;
-  background: linear-gradient(#d4e8fa, #f8d8ff);
+  background-color:white;
 }
 main {
   margin: 1%;
@@ -39,6 +39,19 @@ main {
 .container-0 nav ul li a img {
   width: 40px;
   border-radius: 50%;
+}
+.container-0 nav ul li button img {
+  width: 40px;
+  border-radius: 0%;
+}
+.container-0 nav ul li button{
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+}
+.container-0 nav ul li button:hover{
+  border-radius: 50%;
+  background-color: #c0c0c0;
 }
 .container-0 nav ul li a img:hover {
   box-shadow: 2px 1px 10px 2px #c9d9db;
