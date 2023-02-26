@@ -1,11 +1,13 @@
-function temas() {
-  let fondoBody = document.getElementById('body').style.backgroundColor;
-  let fondoMain = document.getElementById('main').style.backgroundColor;
-  if (fondoBody == "black") {
-    fondoBody.style.backgroundColor = "#fff";
-    fondoMain.style.backgroundColor = "#fff";
-  } else {
-    fondoBody.style.backgroundColor = "black";
-    fondoMain.style.backgroundColor = "black";
+function ejecutarFuncionalidades() {
+  updateAge();
+}
+
+function updateAge() {
+  let fecha = new Date();
+  let year = fecha.getFullYear();
+  let edad = year - 2001;
+  if (fecha.getMonth() <= 9) {
+    edad = year - 2001 - 1;
   }
+  document.getElementById("edad").innerHTML = "Edad: " + edad;
 }

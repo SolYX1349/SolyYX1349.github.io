@@ -89,6 +89,7 @@ main {
   color: #4e75f7;
 }
 #container-perfil p {
+  margin: 2%;
   font-size: medium;
 }
 #container-perfil p img {
