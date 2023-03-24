@@ -22,8 +22,8 @@ body {
   text-decoration: none;
   padding: 2%;
 }
-#container-navegador a:hover{
-    color: #c6c6c6;
+#container-navegador a:hover {
+  color: #c6c6c6;
 }
 .fondo_pagina {
   width: 100%;
@@ -32,8 +32,9 @@ body {
   display: flex;
 }
 /*Reloj Navegador*/
-#contenedor-reloj{
-  position: static;
+/*Fecha Navegador*/
+#contenedor-reloj,
+#contenedor-fecha {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -41,9 +42,14 @@ body {
   width: 15%;
   height: 40%;
   border-radius: 5%;
- border: 2px solid #7a7a7a;
+  border: 2px solid #7a7a7a;
+  margin-right: 2%;
 }
-#contenedor-reloj div p{
+#contenedor-fecha {
+  width: 20%;
+}
+#contenedor-reloj div p,
+#contenedor-fecha div p {
   font-size: xx-large;
 }
 /*Pagina-01*/
@@ -102,50 +108,50 @@ body {
   width: 40px;
 }
 /*Pagina-02*/
-#about{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-#contenerdor-descripcion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 60%;
-    height: 70%;
-    text-align: center;
+#contenerdor-descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  height: 70%;
+  text-align: center;
 }
-#contenerdor-descripcion h2{
-    font-size: 5em;
-    margin: 0%;
+#contenerdor-descripcion h2 {
+  font-size: 5em;
+  margin: 0%;
 }
-#contenerdor-descripcion p{
-    font-size: 1.3em;
-    margin: 1% auto 1% auto;
+#contenerdor-descripcion p {
+  font-size: 1.3em;
+  margin: 1% auto 1% auto;
 }
-#contenedor-imagen-perfil{
-    width: 30%;
-    height: 30%;
+#contenedor-imagen-perfil {
+  width: 30%;
+  height: 30%;
 }
-#contenedor-imagen-perfil img{
-    border-radius: 10%;
-    width: 80%;
-    border: 5px solid #000000;
-    box-shadow: 0px 0px 30px 5px #000000;
+#contenedor-imagen-perfil img {
+  border-radius: 10%;
+  width: 80%;
+  border: 5px solid #000000;
+  box-shadow: 0px 0px 30px 5px #000000;
 }
 /*Pagina-03*/
-#resume{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+#resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.contenedor-skills{
-    width: 30%;
-    height: 80%;
-    margin: auto;
-    border-radius: 10px;    
-    background: #2b2b2b ;
-    text-align: center;
+.contenedor-skills {
+  width: 30%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  background: #2b2b2b;
+  text-align: center;
 }
