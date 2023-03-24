@@ -18,5 +18,8 @@ function addData(element) {
   document.getElementById("p-m-op").innerHTML = cadena;
 }
 function resultado() {
-  document.getElementById("p-m-res").innerHTML = ejecutarOperacion();
+  let result = ejecutarOperacion();
+  document.getElementById("p-m-res").innerHTML = result;
+  document.getElementById("p-m-op").innerHTML = result;
+  cadena = result;
 }
