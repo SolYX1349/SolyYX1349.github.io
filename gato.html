@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gato/gato.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gato/gato.css" />
+    <script src="gato/gato.js"></script>
+    <script src="gato/FuncionesGato.js"></script>
     <title>Juego Gato</title>
-</head>
-<body>
-    <h1>###Gato###</h1>
-</body>
+  </head>
+  <body>
+    <section id="contenedor-figuras-jugadores">
+      <label class="contenedores-figuras" for="iconoX"
+        ><input
+          type="button"
+          name="figura"
+          id="x"
+          value="X"
+          onclick="selectPlayer(this)"
+      /></label>
+      <h2>Elige Un Jugador</h2>
+      <label class="contenedores-figuras" for="figura"
+        ><input
+          type="button"
+          name="figura"
+          id="o"
+          value="O"
+          onclick="selectPlayer(this)"
+      /></label>
+    </section>
+    <section id="contenedor-mascador">
+      <div class="contenedores-valores-juego">
+        <p>Player</p>
+        <p id="puntos-jugador">0</p>
+      </div>
+      <p>-</p>
+      <div class="contenedores-valores-juego">
+        <p id="puntos-maquina">0</p>
+        <p>Machine</p>
+      </div>
+    </section>
+    <section id="contenedor-juego">
+      <div id="contenedor-casillas">
+        <p class="casillas" type="button" id="1" onclick="selected('1')"></p>
+        <p class="casillas" type="button" id="2" onclick="selected('2')"></p>
+        <p class="casillas" type="button" id="3" onclick="selected('3')"></p>
+        <p class="casillas" type="button" id="4" onclick="selected('4')"></p>
+        <p class="casillas" type="button" id="5" onclick="selected('5')"></p>
+        <p class="casillas" type="button" id="6" onclick="selected('6')"></p>
+        <p class="casillas" type="button" id="7" onclick="selected('7')"></p>
+        <p class="casillas" type="button" id="8" onclick="selected('8')"></p>
+        <p class="casillas" type="button" id="9" onclick="selected('9')"></p>
+      </div>
+    </section>
+  </body>
 </html>

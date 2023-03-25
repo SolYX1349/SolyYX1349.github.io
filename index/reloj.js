@@ -27,8 +27,8 @@ function obtenerDatos() {
   let fecha = new Date();
   asignarFecha(
     diaSemanaArray[fecha.getDay()],
-    monthArray[fecha.getMonth()],
-    fecha.getFullYear()
+    fecha.getDay(),
+    monthArray[fecha.getMonth()]
   );
   asignarHora(
     fomatHoras(fecha.getHours()),
@@ -36,10 +36,10 @@ function obtenerDatos() {
     addZero(fecha.getSeconds())
   );
 }
-function asignarFecha(day, month, year) {
+function asignarFecha(day, dayNum ,month) {
   document.getElementById("dia").innerHTML = day;
+  document.getElementById("dia-num").innerHTML = dayNum;
   document.getElementById("mes").innerHTML = month;
-  document.getElementById("year").innerHTML = year;
 }
 function asignarHora(horas, minutos, segundos) {
   document.getElementById("hora-dia").innerHTML = horas;

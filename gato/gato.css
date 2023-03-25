@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url(/imagenes/fondos/fondo-pag-gato.jpeg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+/*Contenedor Jugadores*/
+#contenedor-figuras-jugadores {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contenedores-figuras {
+  width: 5%;
+  height: 60%;
+  margin: 0% 1%;
+}
+.contenedores-figuras input {
+  width: 100%;
+  height: 100%;
+  font-size: xx-large;
+  border-radius: 10px;
+  background-color: #ffffff85;
+}
+.contenedores-figuras input:hover {
+  background-color: #ffffffe2;
+}
+/*Contenedor Marcadores*/
+#contenedor-mascador {
+  width: 40%;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor-mascador p {
+  font-size: xx-large;
+}
+.contenedores-valores-juego {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contenedores-valores-juego p {
+  font-size: xx-large;
+  margin: 0% auto;
+}
+/*Contenedor Juego*/
+#contenedor-juego {
+  width: 45%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor-casillas {
+  width: 95%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 33% 34% 33%;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 25px 1px #000000;
+}
+.casillas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  background-color: #ffffff38;
+  font-size: 5em;
+}
