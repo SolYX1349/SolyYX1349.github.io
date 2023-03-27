@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="index/index.css" />
     <script src="index/index.js"></script>
     <script src="index/reloj.js"></script>
+    <script src="index/animaciones.js"></script>
+    <script src="index/clock.js"></script>
     <title>Protafolio Web</title>
   </head>
   <body onload="iniciarFunciones()">
@@ -14,27 +16,13 @@
       <a href="#home">HOME</a>
       <a href="#about">ABOUT</a>
       <a href="#resume">RESUME</a>
-      <div id="contenedor-reloj">
-        <div><p id="hora-dia"></p></div>
-        <div><p>:</p></div>
-        <div><p id="minuto-dia"></p></div>
-        <div><p>:</p></div>
-        <div><p id="segundo-dia"></p></div>
-      </div>
-      <div id="contenedor-fecha">
-        <div><p id="dia"></p></div>
-        <div><p>/</p></div>
-        <div><p id="dia-num"></p></div>
-        <div><p>/</p></div>
-        <div><p id="mes"></p></div>
-      </div>
     </section>
     <section class="fondo_pagina" id="home">
       <div id="contenedor-titulos-informacion">
         <div id="contenedor-nombre"><p id="nombre">SAUL</p></div>
         <div id="contenedor-apellido"><p id="apellido">MEDINA</p></div>
         <div id="contenedor-descripcion">
-          <p id="descripcion">DESAROLLADOR BACKEND</p>
+          <p id="descripcion"></p>
         </div>
         <div id="contenedor-lista">
           <ul>
@@ -83,7 +71,7 @@
     </section>
     <section class="fondo_pagina" id="about">
       <div id="contenerdor-descripcion">
-        <h2>|ABOUT</h2>
+        <h2 id="about-titulo">ABOUT</h2>
         <p>
           Mi nombre es <b>Saul</b> y soy estudiante de programaci&#243;n
           <b>Backend</b> y t&#243;picos <b>Frontend</b> Asi como

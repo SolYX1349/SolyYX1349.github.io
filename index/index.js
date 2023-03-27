@@ -1,3 +1,3 @@
 function iniciarFunciones() {
-  tiempo();
+  animation();
 }

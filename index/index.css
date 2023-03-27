@@ -31,27 +31,6 @@ body {
   background-image: url(/imagenes/fondos/pexels-photo-01.jpeg);
   display: flex;
 }
-/*Reloj Navegador*/
-/*Fecha Navegador*/
-#contenedor-reloj,
-#contenedor-fecha {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 15%;
-  height: 40%;
-  border-radius: 5%;
-  border: 2px solid #7a7a7a;
-  margin-right: 2%;
-}
-#contenedor-fecha {
-  width: 20%;
-}
-#contenedor-reloj div p,
-#contenedor-fecha div p {
-  font-size: xx-large;
-}
 /*Pagina-01*/
 #home {
   display: flex;
