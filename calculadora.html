@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta author="Solyx-saul-m"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculadora/calculadora.css"/>
+    <script src="calculadora/calculadora.js" async></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="fig-fondo">
+      <div id="fig-cal-container">
+        <div id="cont-panel">
+          <div id="panel-operaciones"><p id="p-m-op">Autor: Saul.M</p></div>
+          <div id="panel-resultado"><p id="p-m-res">0</p></div>
+        </div>
+        <div id="cont-botones">
+          <input
+            type="button"
+            value="AC"
+            id="but-larg-ac"
+            onclick="limpiar()"
+          />
+          <input
+            type="button"
+            value="SUPR"
+            id="but-supr"
+            onclick="suprimir()"
+          />
+          <input
+            type="button"
+            value="/"
+            class="but-op"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="9"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="8"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="7"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="*"
+            class="but-op"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="4"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="5"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="6"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="-"
+            class="but-op"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="3"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="2"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="1"
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="+"
+            class="but-op"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="0"
+            id="but-larg-ce"
+            onclick="addData(this)"
+          />
+          <input
+            type="button"
+            value="."
+            class="but-num"
+            onclick="addData(this)"
+          />
+          <input type="button" value="=" class="but-op" onclick="resultado()" />
+        </div>
+      </div>
+  </body>
+</html>

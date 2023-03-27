@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Portafolio</title>
-    <script src="/SolyYX1349.github.io/index.js" defer></script>
+    <link rel="stylesheet" href="index/index.css" />
+    <script src="index/index.js"></script>
+    <script src="index/reloj.js"></script>
+    <script src="index/animaciones.js"></script>
+    <script src="index/clock.js"></script>
+    <title>Protafolio Web</title>
   </head>
-  <body id="body" onload="ejecutarFuncionalidades()">
-    <main id="main">
-      <section class="container-0">
-        <nav>
+  <body onload="iniciarFunciones()">
+    <section id="container-navegador">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#resume">RESUME</a>
+    </section>
+    <section class="fondo_pagina" id="home">
+      <div id="contenedor-titulos-informacion">
+        <div id="contenedor-nombre"><p id="nombre">SAUL</p></div>
+        <div id="contenedor-apellido"><p id="apellido">MEDINA</p></div>
+        <div id="contenedor-descripcion">
+          <p id="descripcion"></p>
+        </div>
+        <div id="contenedor-lista">
           <ul>
             <li>
               <a
                 href="https://www.facebook.com/profile.php?id=100011088278995"
                 target="_blank"
                 ><img
-                  src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
-                  alt="facebook"
+                  src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
+                  alt="faceboock icon"
               /></a>
             </li>
             <li>
               <a href="https://twitter.com/SOLYX15" target="_blank"
                 ><img
                   src="https://cdn-icons-png.flaticon.com/512/4494/4494477.png"
-                  alt="twiter"
+                  alt="twiter icon"
               /></a>
             </li>
             <li>
@@ -53,131 +66,83 @@
               /></a>
             </li>
           </ul>
-        </nav>
-      </section>
-      <section id="container-1">
-        <div id="container-perfil">
-          <img src="imagenes/imagen-perfil/usuario-perfil-01.jpg" />
-          <h1>SAUL MEDINA</h1>
-          <p>Developer Backend & Topics Frontend</p>
-          <p>
-            Estudiante en la rama <br />
-            de la programacion Backend
-          </p>
-          <p id="edad">Edad: 21</p>
-          <p>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/70/70076.png"
-              alt="icon"
-            />
-            Mexico
-          </p>
         </div>
-        <div id="container-datos-perfil">
-          <div id="container-datos-perfil-01">
-            <h2>Acerca de mi</h2>
-            <div>
-              <p>
-                Mi nombre es <b>Saul</b> y soy estudiante de programaci&#243;n
-                <b>Backend</b> y t&#243;picos <b>Frontend</b> Asi como
-                <b>Frameworks</b> en la rama de la programaci&#243;n. Se que es
-                un camino largo de desarrollo y estudio pero creo en lograr mis
-                metas laborales y personales. Soy una persona dedicada en su
-                trabajo y con desempeño enfocado, una de las cosas que me
-                apasi&#243;nan mas es el arte visual y la tecnolog&#237;a en
-                general me gusta crear nuevos hobbies para expresar mis
-                habilidades y mejorar mi desempeño.
-              </p>
-            </div>
-          </div>
-          <div class="container-skills">
-            <div class="skills">
-              <h2>Lunguajes</h2>
-              <p>
-                Java <br />
-                HTML <br />
-                CSS <br />
-                JavaScript
-              </p>
-            </div>
-            <div class="skills">
-              <h2>Java</h2>
-              <p>
-                Fundamentos java <br />
-                Programación Orientada a Objetos <br />
-                Conexiones con JDBC <br />
-                Java Web JSPs/Servlets
-              </p>
-            </div>
-            <div class="skills">
-              <h2>Bases de Datos Relacionales</h2>
-              <p>MySQL</p>
-            </div>
-            <div class="skills">
-              <h2>Sistemas Control de Versiones</h2>
-              <p>
-                Git <br />
-                GitHub <br />
-                GitLab <br />
-              </p>
-            </div>
-            <div class="skills">
-              <h2>Testing</h2>
-              <p>
-                Unit Testing <br />
-                Mokito
-              </p>
-            </div>
-            <div class="skills">
-              <h2>Proyectos Personales</h2>
-              <p><a href="index.html">Link: Portafolio Web</a></p>
-              <p>
-                <a href="calculadora/calculadora.html">Link: Calculadora</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="container-2">
-        <h1>Lecturas</h1>
-        <div class="carrucel">
-          <div class="element">
-            <img
-              src="imagenes/imagen-libros/fundamentos-de-programacion-java.jpg"
-              alt="imgen de libro no disponible"
-            />
-          </div>
-          <div class="element">
-            <img
-              src="imagenes/imagen-libros/el-diablo-de-los-numeros.webp"
-              alt="imgen de libro no disponible"
-            />
-          </div>
-          <div class="element">
-            <img
-              src="imagenes/imagen-libros/el-libro-salvaje.webp"
-              alt="imgen de libro no disponible"
-            />
-          </div>
-          <div class="element">
-            <img src="imagenes/imagen-libros/el-hombre-que-calculaba.webp" alt="imgen de libro no disponible" />
-          </div>
-          <div class="element">
-            <img src="" alt="imgen de libro no disponible" />
-          </div>
-          <div class="element">
-            <img src="" alt="imgen de libro no disponible" />
-          </div>
-        </div>
-      </section>
-    </main>
+      </div>
+    </section>
+    <section class="fondo_pagina" id="about">
+      <div id="contenerdor-descripcion">
+        <h2 id="about-titulo">ABOUT</h2>
+        <p>
+          Mi nombre es <b>Saul</b> y soy estudiante de programaci&#243;n
+          <b>Backend</b> y t&#243;picos <b>Frontend</b> Asi como
+          <b>Frameworks</b> en la rama de la programaci&#243;n. Se que es un
+          camino largo de desarrollo y estudio pero creo en lograr mis metas
+          laborales y personales. Soy una persona dedicada en su trabajo y con
+          desempeño enfocado, una de las cosas que me apasi&#243;nan mas es el
+          arte visual y la tecnolog&#237;a en general me gusta crear nuevos
+          hobbies para expresar mis habilidades y mejorar mi desempeño.
+        </p>
+      </div>
+      <div id="contenedor-imagen-perfil">
+        <img src="imagenes/perfil/yo-01.jpg" alt="imgen perfil" />
+      </div>
+    </section>
+    <section class="fondo_pagina" id="resume">
+      <div class="contenedor-skills">
+        <h2>SKILLS</h2>
+        <hr />
+        <h3>Lenguajes de Programacion</h3>
+        <ul>
+          <li>Java SE / EE</li>
+          <li>Java Script</li>
+        </ul>
+        <h3>Tecnologias Web</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <h3>Testing</h3>
+        <ul>
+          <li>Junit</li>
+          <li>Mockito</li>
+        </ul>
+        <h3>Bases de Datos</h3>
+        <ul>
+          <li>MySql</li>
+        </ul>
+        <h3>Controladores de Verciones</h3>
+        <ul>
+          <li>GitHub</li>
+          <li>GitLab</li>
+          <li>Git</li>
+        </ul>
+      </div>
+      <div class="contenedor-skills">
+        <h2>EXPERIENCIA</h2>
+        <hr />
+        <h3>Estudios</h3>
+        <ul>
+          <li>Udemy - Activo</li>
+          <li>OpenBootcam - Activo</li>
+          <li>FreeCodeCamp - Activo</li>
+        </ul>
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Español Latam</li>
+          <li>Ingles A1</li>
+        </ul>
+      </div>
+      <div class="contenedor-skills">
+        <h2>PROYECTOS</h2>
+        <hr />
+        <ul>
+          <li><a href="index.html">Portafolio Web</a></li>
+          <li><a href="calculadora.html">Calculadora Web</a></li>
+          <li><a href="examen.html">Examen Web</a></li>
+          <li><a href="gato.html">Gato Web</a></li>
+        </ul>
+      </div>
+    </section>
   </body>
-  <footer>
-    <p>
-      Gracias por visitar mi sitio. <br />
-      Esta pagina utilizo
-      <a href="https://www.flaticon.es/" target="_blank">Flaticon </a>
-      para los iconos.
-    </p>
-  </footer>
+  <footer></footer>
 </html>

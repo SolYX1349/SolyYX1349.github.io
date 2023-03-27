@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+/*Navegador*/
+#container-navegador {
+  width: 100%;
+  height: 8vh;
+  min-width: 700px;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+#container-navegador a {
+  color: #fff;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 2%;
+}
+#container-navegador a:hover {
+  color: #c6c6c6;
+}
+.fondo_pagina {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/imagenes/fondos/pexels-photo-01.jpeg);
+  display: flex;
+}
+/*Pagina-01*/
+#home {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#contenedor-titulos-informacion {
+  width: 40%;
+  height: 50%;
+  margin-left: 5%;
+}
+#contenedor-nombre {
+  display: flex;
+  width: 100%;
+  height: 15%;
+}
+#contenedor-apellido {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+#contenedor-descripcion {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+#contenedor-lista {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+#contenedor-nombre p {
+  color: #e6e6e6;
+  font-size: 4em;
+}
+#contenedor-apellido p {
+  color: #ffffff;
+  font-size: 5em;
+}
+#contenedor-descripcion p {
+  color: #c6c6c6;
+  font-size: 1.5em;
+}
+#contenedor-titulos-informacion ul {
+  list-style: none;
+  display: flex;
+}
+#contenedor-titulos-informacion li {
+  margin-right: 10%;
+}
+#contenedor-titulos-informacion ul li a img {
+  width: 40px;
+}
+/*Pagina-02*/
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#contenerdor-descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  height: 70%;
+  text-align: center;
+}
+#contenerdor-descripcion h2 {
+  font-size: 5em;
+  margin: 0%;
+}
+#contenerdor-descripcion p {
+  font-size: 1.3em;
+  margin: 1% auto 1% auto;
+}
+#contenedor-imagen-perfil {
+  width: 30%;
+  height: 30%;
+}
+#contenedor-imagen-perfil img {
+  border-radius: 10%;
+  width: 80%;
+  border: 5px solid #000000;
+  box-shadow: 0px 0px 30px 5px #000000;
+}
+/*Pagina-03*/
+#resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor-skills {
+  width: 30%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  background: #2b2b2b;
+  text-align: center;
+}

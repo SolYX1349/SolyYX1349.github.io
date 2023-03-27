@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="examen/examen.css" />
+    <script src="examen/examen.js"></script>
+    <title>Examen</title>
+  </head>
+  <body>
+    <h1>Examen Web</h1>
+    <button onclick="generarExamen()">Generar Examen</button>
+    <section id="contenedor-examen">
+      <ul id="lista-html">
+        <li>
+          <p id="pregunta">¿Pregunta1?</p>
+          <fieldset>
+            <input type="radio" name="pregunta1" id="respuesta1" />
+            <p>Respuesta1</p>
+            <input type="radio" name="pregunta1" id="respuesta2" />
+            <p>Respuesta2</p>
+            <input type="radio" name="pregunta1" id="respuesta3" />
+            <p>Respuesta3</p>
+            <input type="radio" name="pregunta1" id="respuesta4" />
+            <p>Respuesta4</p>
+          </fieldset>
+        </li>
+      </ul>
+      <button onclick="obtenerResultado()">Terminar</button>
+    </section>
+  </body>
+</html>
