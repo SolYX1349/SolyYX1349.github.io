@@ -2,14 +2,14 @@
   margin: 0%;
   padding: 0%;
 }
-body {
-  background-image: url(/imagenes/fondos/fondo-pag-gato.jpeg);
+body {                 
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  color: #ffffff;
+  color: #000;
 }
 /*Contenedor Jugadores*/
 #contenedor-figuras-jugadores {
@@ -74,13 +74,13 @@ body {
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: 33% 34% 33%;
   border: 1px solid #000000;
-  box-shadow: 0px 0px 25px 1px #000000;
+  box-shadow: 0px 5px 20px 10px #c4d4d9;
 }
 .casillas {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid #000;
-  background-color: #ffffff38;
+  background-color: #ffffff69;
   font-size: 5em;
 }
