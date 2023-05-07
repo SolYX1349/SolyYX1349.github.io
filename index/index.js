@@ -1,3 +1,8 @@
+const body = document.getElementById("body");
+
+function darkmode() {
+  body.classList.toggle("active");
+}
 function ejecutarFuncionalidades() {
   updateAge();
 }
